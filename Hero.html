@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الشخصي Aya Jhe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+
+<button onclick="toggleTheme()">تغيير الخلفية</button>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Aya Jhe</h1>
+            <ul class="nav-link">
+                <a href="#about"><li>من أنا</li></a>
+                <a href="#skills"><li>المهارات</li></a>
+                <a href="#portfolio"><li>الأعمال</li></a>
+                <a href="#contact"><li>اتصل بي </li></a>
+            </ul>
+        </nav>
+    </header>
+    <img src="C:\Users\silver star\Desktop\Hero Section\manage\IMG_20211030_204904_292.jpg" alt="Aya Jhe" class="profile-pic">
+    <header class="hero">
+        <h1>مرحبا بك في موقعي الشخصي!</h1>
+        <p>أناAyaمبرمجة ومصممة مواقع. هنا ستتعرف على مهاراتي وأعمالي أستخدم JavaScript, CSS, HTML وPHP لإنشاء مواقع بسيطة واحترافية</p>
+        <a href="contact" class="btn">تواصل معي</a>
+    </header>
+
+    <section id="about" class="section reveal">
+        <div class="container">
+            <h2>من أنا</h2>
+            <div class="about-content">
+                <ul>
+                    <i class="fas fa-user"><li>اسمي Aya Jhe</li></i>
+                    <i class="fas fa-code"><li>مطورة مواقع ويب بخبرة في  CSS ,HTML ,Python ,C++ ,PHP ,JavaScript</li></i>
+                    <i class="fas fa-lap top-code"><li>متخصصةفي  تصميمم واجهات أنيقة و متجاوبة </li></i>
+                    <i class="fas fa-globe"><li>أعمل على تحويل الأفكار إلى مواقع متكاملة وسهلة الاستخدام</li></i>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>السيرة الذاتية</h2>
+        <h3>المهارات التقنية :</h3>
+        <ul>
+            <li>HTML / CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>C++ / Python </li>
+        </ul>
+        <h3>الشهادات والدورات:</h3>
+        <p>يمكنك إدخال شهاداتك هنا (أو أضفها لاحقا)</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>معرض الأعمال</h2>
+        <p>هنا سأعرض بعض المشاريع التي عملت عليها</p>
+        <div class="project">
+            <h4>مشروع صفحة هبوط</h4>
+            <p>تصميم صفحة هبوط بسيطة باستخدامHTML.CSS</p>
+        </div>
+        <div class="project">
+            <h4>موقع تعريفي شخصي</h4>
+            <p>موقع يقدم معلومات عن العميل , قابل للتخصيص .</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>تواصل معي</h2>
+        <form action="#" method="post">
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message"> الرسالة:</label>
+            <input type="text" id="name" name="name" required><br>
+            <input type="submit" value="إرسال">
+        </form>
+    </section>
+    <footer>
+        <p>حقوق النشر والطبع Aya Jhe &copy;</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

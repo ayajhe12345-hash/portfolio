@@ -1,0 +1,150 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.dark-mode{
+    background-color: #222;
+    color:#251515;}
+
+header{
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+header h1{
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.profile-pic{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #4CAF50;
+}
+
+.hero{
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.btn{
+    background-color: white;
+    color: #4CAF50;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px ;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo{
+    font-size: 24px ;
+    font-weight: bold;
+}
+
+.nav-link{
+    list-style: none;
+    display: flex ;
+    gap: 20px;
+}
+
+.nav-link a{
+    color: white;
+    text-decoration: none ;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-link a:hover{
+    color: #4CAF50;
+}
+
+section{
+    padding: 80px 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.section h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.section p{
+    font-size: 18px;
+    max-width: 600px;
+    margin:  0 auto;
+    line-height: 1.7;
+    color: #555;
+}
+
+.reveal{
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.6s ease;
+}
+
+.reveal.active{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.project{
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+#about,#resume,#portfolio,#contact{
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,1);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input,textarea{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
